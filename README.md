@@ -6,20 +6,34 @@ For this project, we are going to be looking at how resistors are color-coded an
 
 The input to the program will be a file of “words”. The word is an encoded resistor using the values we see on this page (https://en.wikipedia.org/wiki/Electronic_color_code). Since single letters are used to represent the colors  either the first or last letter to represent the color. The color words are indicated with this table
 
-Table of values for resistor band colors\n
-Color	Letter	Figure	Multiplier	Tolerance\n
-Black	k	      0	      10^0	      --\n
-Brown	n	1	10^1	1%
-Red	r	2	10^2	2%
-Orange	o	3	10^3	--
-Yellow	w	4	10^4	5%
-Green	g	5	10^5	.5%
-Blue	b	6	10^6	.25%
-Violet	v	7	10^7	0.1%
-Gray	y	8	10^8	0.05%
-White	e	9	10^9	--
-Gold	d		10^-1	5%
-Silver	s		10^-2	10%
+Table of values for resistor band colors
+
+Color	Letter	Figure	Multiplier	Tolerance
+
+Black	k	      0	      10^0	      --
+
+Brown	n	      1	      10^1	      1%
+
+Red	  r	      2	      10^2	      2%
+
+Orange o	    3	      10^3	      --
+
+Yellow w	    4	      10^4	      5%
+
+Green	g	      5	      10^5	      .5% 
+
+Blue	b	      6	      10^6	      .25%
+
+Violet v	    7	      10^7	      0.1%
+
+Gray	y	      8	      10^8	      0.05%
+
+White	e	      9	      10^9	      --
+
+Gold	d	      	      10^-1	      5%
+
+Silver s	      	    10^-2	      10%
+
 So, if given resistor with yellow, violet, red and gold, the input would be: wvrd
 
 The meaning of the input is as follows:
