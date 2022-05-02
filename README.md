@@ -6,9 +6,9 @@ For this project, we are going to be looking at how resistors are color-coded an
 
 The input to the program will be a file of “words”. The word is an encoded resistor using the values we see on this page (https://en.wikipedia.org/wiki/Electronic_color_code). Since single letters are used to represent the colors  either the first or last letter to represent the color. The color words are indicated with this table
 
-Table of values for resistor band colors
-Color	Letter	Figure	Multiplier	Tolerance
-Black	k	0	10^0	--
+Table of values for resistor band colors\n
+Color	Letter	Figure	Multiplier	Tolerance\n
+Black	k	      0	      10^0	      --\n
 Brown	n	1	10^1	1%
 Red	r	2	10^2	2%
 Orange	o	3	10^3	--
